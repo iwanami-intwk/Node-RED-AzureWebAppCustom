@@ -1,0 +1,17 @@
+{
+  "name": "node-red-webapp",
+  "version": "1.0.0",
+  "description": "A webapp wrapper for running node-red in an Azure Web App",
+  "main": "server.js",
+  "dependencies": {
+    "node-red": "*",
+    "node-red-contrib-browser-utils": "*",
+    "node-red-contrib-azure-documentdb": "*",
+    "node-red-contrib-azure-https": "*",
+    "node-red-contrib-azure-table-storage": "*",
+    "node-red-contrib-azure-blob-storage": "*",
+    "node-red-contrib-cognitive-services": "*",
+    "node-red-contrib-azure-sql": "*",
+    "node-red-contrib-azureiothubnode": "*"
+  }
+}
